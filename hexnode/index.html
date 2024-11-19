@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Hexnode Kiosk free for 14 days!</title>
+    <meta name="description"
+        content="Hexnode simplifies device management with powerful tools for organizations. Experience seamless and secure management for all your devices.">
+    <meta name="keywords"
+        content="Hexnode, device management, UEM, MDM, endpoint security, secure management, business tools">
+    <link rel="icon" href="assets/images/apple-touch-icon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+    <!-- Header sec=tion start -->
+    <Header class="sticky-header">
+        <div class="container">
+            <div class="main-header">
+                <a href="https://www.hexnode.com/" class="logo"> Xenode </a>
+                <a href="" class="free-trial">14 days Free Trial</a>
+            </div>
+        </div>
+    </Header>
+    <!-- baner section start -->
+    <section class="baner-bg">
+        <div class="container">
+            <div class="baner-grid">
+                <div class="bnr-text-width">
+                    <h1>Turn your devices into kiosks in a few minutes with Hexnode UEM</h1>
+                    <form action="" class="form-section" id="emailForm">
+                        <div class="form-input">
+                            <input type="email" name="email" value="" class="form-control" id="emailInput"
+                                placeholder="Your Work Email">
+                            <p><span id="error" class="" style="display: none;">Please enter Your Work Email</span> </p>
+                        </div>
+                        <button type="submit" id="submitButton">GET STARTED NOW!</button>
+                    </form>
+                </div>
+                <picture>
+                    <source type="image/webp" srcset="assets/images/hexnode-kiosk.webp">
+                    <img src="assets/images/hexnode-kiosk.png" alt="hexnode kiosk" width="597" height="586"
+                        class="img-responsive">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <!-- ads section start -->
+    <section class="ads-section">
+        <div class="container">
+            <div class="ads-grid">
+                <div class="ads-item">
+                    <a href="https://www.hexnode.com/blogs/mitsogo-hexnode-named-a-leader-in-idc-marketscape-worldwide-uem-software-for-apple-devices-2024-vendor-assessment/"
+                        target="_blank">
+                        <img src="assets/images/idc.webp" alt="idc" width="83" height="25">
+                        <p>Hexnode is listed as a leader and a major player in IDC MarketScape UEM Vendors Assessment
+                            Reports 2024.</p>
+                    </a>
+                </div>
+                <div class="ads-item">
+                    <a href="https://www.hexnode.com/blogs/hexnode-listed-as-a-notable-vendor-in-gartner-midmarket-context-magic-quadranttm-for-unified-endpoint-management-tools/"
+                        target="_blank">
+                        <img src="assets/images/gartner.webp" alt="gartner" width="110" height="25">
+                        <p>Hexnode mentioned as a Notable Vendor in Midmarket Context: Magic Quadrant for Unified
+                            Endpoint Management tools 2022.</p>
+                    </a>
+                </div>
+                <div class="ads-item">
+                    <a href="https://www.hexnode.com/blogs/hexnode-included-in-the-unified-endpoint-management-landscape-report/"
+                        target="_blank">
+                        <img src="assets/images/forrester.webp" alt="forrester" width="156" height="25">
+                        <p>Forrester includes Hexnode as a Notable vendor in The Unified Endpoint Management Landscape,
+                            Q3 2023.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kiosk tab section desktop code start -->
+    <section class="container kiosk-tab mobile-hide">
+        <h2 class="specific">Specific kiosk modes for unique use cases</h2>
+        <div class="ads-tab">
+            <div class="mobile-flow">
+                <button class="adsitem-btn active" onclick="openadsitem('singleApp', this)">Single App Kiosk</button>
+                <button class="adsitem-btn" onclick="openadsitem('multiApp', this)">Multi-App Kiosk</button>
+                <button class="adsitem-btn" onclick="openadsitem('webBased', this)">Web-based Kiosk</button>
+                <button class="adsitem-btn" onclick="openadsitem('digitalSignages', this)">Digital Signages</button>
+                <button class="adsitem-btn" onclick="openadsitem('asmKiosk', this)">ASAM Kiosk</button>
+            </div>
+            <div id="singleApp" class="adsitem">
+                <div class="aditem-grid">
+                    <div class="apps-sec">
+                        <h3>Powerful Single-App Kiosk solutions for enhanced control</h3>
+                        <ul class="custom-list">
+                            <li>Provision the devices to run one specialized application, with limited functionalities.
+                            </li>
+                            <li>Customize the device settings to cater to a specific use-case each time.</li>
+                            <li>Use Hexnode’s Advanced Kiosk settings for additional restrictions or expanded device
+                                functionalities while in kiosk mode.</li>
+                            <li>Empower your administrators with full control over the kiosk devices.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/single-app-kios-image.webp" alt="single-app-kios-image" width="920"
+                        height="706" class="img-responsive">
+                </div>
+            </div>
+            <div id="multiApp" class="adsitem" style="display:none">
+                <div class="aditem-grid">
+                    <div class="apps-sec">
+                        <h3>Elevate efficiency with Multi-App Kiosk</h3>
+                        <ul class="custom-list">
+                            <li>Limit device access to approved apps, ensuring focus and productivity.</li>
+                            <li>With default phone and settings app inclusion, reduce distractions by providing users
+                                access to essential functions only.</li>
+                            <li>With Hexnode's peripheral settings admins can allow necessary device settings while
+                                retaining control.</li>
+                            <li>Simplify device management while empowering user productivity by deploying Multi-App
+                                Kiosk Mode.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/multi-app-kiosk-image.webp" alt="multi app kiosk image" width="920"
+                        height="706" class="img-responsive">
+                </div>
+            </div>
+            <div id="webBased" class="adsitem" style="display:none">
+                <div class="aditem-grid">
+                    <div class="apps-sec">
+                        <h3>Explore the new way to manage web apps and websites</h3>
+                        <ul class="custom-list">
+                            <li>Let users access essential and approved web apps, website and files only.</li>
+                            <li>Make the best use of website kiosk with Hexnode's advanced settings.</li>
+                            <li>Tailor your experience to match your unique use case.</li>
+                            <li>From configuring toolbar options to scheduling page refresh, remote debugging, and
+                                limiting incognito tabs, take full control of your website kiosk experience.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/web-based-kiosk-image.webp" alt="web based kiosk image" width="920"
+                        height="706" class="img-responsive">
+                </div>
+            </div>
+            <div id="digitalSignages" class="adsitem" style="display:none">
+                <div class="aditem-grid">
+                    <div class="apps-sec">
+                        <h3>Capture attention with Digital Signage Kiosks</h3>
+                        <ul class="custom-list">
+                            <li>Transform your devices into captivating digital signage kiosks that grab attention.</li>
+                            <li>Engage your audience with vibrant images and seamless video streaming.</li>
+                            <li>Customize media files with trimming, muting, and background music.</li>
+                            <li>Advertise and show off your brand aesthetics to attract customers in different ways.
+                            </li>
+                            <li>Take control with Hexnode to reestablish your brand's presence.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/digital-signage-kiosk-image.webp" alt="digital signage kiosk image"
+                        width="920" height="706" class="img-responsive">
+                </div>
+            </div>
+            <div id="asmKiosk" class="adsitem" style="display:none">
+                <div class="aditem-grid">
+                    <div class="apps-sec">
+                        <h3>Unlock the power of Autonomous Single App Mode (ASAM)</h3>
+                        <ul class="custom-list">
+                            <li>A feature that empowers your iOS app to seamlessly secure itself in the foreground.</li>
+                            <li>Transform tablets or devices into dedicated point-of-sale (POS) systems by preventing
+                                interruptions from other applications or notifications.</li>
+                            <li>Create focused, efficient and secure digital environments to match your requirements.
+                            </li>
+                            <li>Configure ASAM effortlessly and elevate your user experience like never before.</li>
+                        </ul>
+                    </div>
+                    <img src="assets/images/asam-kiosk-image.webp" alt="asam kiosk image" width="920" height="706"
+                        class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kiosk tab section mobile code start -->
+    <section class="container desktop-hide">
+        <h2 class="specific">Specific kiosk modes for unique use cases</h2>
+        <button class="accordion">Single App Kiosk</button>
+        <div class="panel">
+            <img src="assets/images/single-app-kios-image.webp" alt="single-app-kios-image" width="920" height="706"
+                class="img-responsive">
+            <h3>Powerful Single-App Kiosk solutions for enhanced control</h3>
+            <ul class="custom-list">
+                <li>Provision the devices to run one specialized application, with limited functionalities.</li>
+                <li>Customize the device settings to cater to a specific use-case each time.</li>
+                <li>Use Hexnode’s Advanced Kiosk settings for additional restrictions or expanded device functionalities
+                    while in kiosk mode.</li>
+                <li>Empower your administrators with full control over the kiosk devices.</li>
+            </ul>
+        </div>
+
+        <button class="accordion">Multi-App Kiosk</button>
+        <div class="panel">
+            <img src="assets/images/multi-app-kiosk-image.webp" alt="multi app kiosk image" width="920" height="706"
+                class="img-responsive">
+            <h3>Elevate efficiency with Multi-App Kiosk</h3>
+            <ul class="custom-list">
+                <li>Limit device access to approved apps, ensuring focus and productivity.</li>
+                <li>With default phone and settings app inclusion, reduce distractions by providing users access to
+                    essential functions only.</li>
+                <li>With Hexnode's peripheral settings admins can allow necessary device settings while retaining
+                    control.</li>
+                <li>Simplify device management while empowering user productivity by deploying Multi-App Kiosk Mode.
+                </li>
+            </ul>
+        </div>
+
+        <button class="accordion">Web-based Kiosk</button>
+        <div class="panel">
+            <img src="assets/images/web-based-kiosk-image.webp" alt="web based kiosk image" width="920" height="706"
+                class="img-responsive">
+            <h3>Explore the new way to manage web apps and websites</h3>
+            <ul class="custom-list">
+                <li>Let users access essential and approved web apps, website and files only.</li>
+                <li>Make the best use of website kiosk with Hexnode's advanced settings.</li>
+                <li>Tailor your experience to match your unique use case.</li>
+                <li>From configuring toolbar options to scheduling page refresh, remote debugging, and limiting
+                    incognito tabs, take full control of your website kiosk experience.</li>
+            </ul>
+        </div>
+        <button class="accordion">Digital Signages</button>
+        <div class="panel">
+            <img src="assets/images/digital-signage-kiosk-image.webp" alt="digital signage kiosk image" width="920"
+                height="706" class="img-responsive">
+            <h3>Capture attention with Digital Signage Kiosks</h3>
+            <ul class="custom-list">
+                <li>Transform your devices into captivating digital signage kiosks that grab attention.</li>
+                <li>Engage your audience with vibrant images and seamless video streaming.</li>
+                <li>Customize media files with trimming, muting, and background music.</li>
+                <li>Advertise and show off your brand aesthetics to attract customers in different ways.</li>
+                <li>Take control with Hexnode to reestablish your brand's presence.</li>
+            </ul>
+        </div>
+        <button class="accordion">ASAM Kiosk</button>
+        <div class="panel">
+            <img src="assets/images/asam-kiosk-image.webp" alt="asam kiosk image" width="920" height="706"
+                class="img-responsive">
+            <h3>Unlock the power of Autonomous Single App Mode (ASAM)</h3>
+            <ul class="custom-list">
+                <li>A feature that empowers your iOS app to seamlessly secure itself in the foreground.</li>
+                <li>Transform tablets or devices into dedicated point-of-sale (POS) systems by preventing interruptions
+                    from other applications or notifications.</li>
+                <li>Create focused, efficient and secure digital environments to match your requirements.</li>
+                <li>Configure ASAM effortlessly and elevate your user experience like never before.</li>
+            </ul>
+        </div>
+    </section>
+    <!-- possibilities tab desktop section start -->
+    <section class="container effort-sec mobile-hide">
+        <h2>What additional possibilities does the Kiosk mode offer?</h2>
+        <div id="Effortless" class="additionalcontent">
+            <div class="effort-img">
+                <img src="assets/images/effortless-kiosk-deployement-image.webp"
+                    alt="effortless kiosk deployement image" width="1042" height="1094" class="img-responsive">
+                <div class="data-on">
+                    <img src="assets/images/ads-tick-green.svg" alt="Ads Green Tick" width="23" height="23"
+                        class="img-responsive">
+                    <p>Brand visibility</p>
+                </div>
+            </div>
+        </div>
+        <div id="Customized" class="additionalcontent">
+            <div class="effort-img">
+                <img src="assets/images/customized-interface-image.webp" alt="customized interface image" width="1042"
+                    height="1094" class="img-responsive">
+                <div class="data-on">
+                    <img src="assets/images/ads-tick-green.svg" alt="Ads Green Tick" width="23" height="23"
+                        class="img-responsive">
+                    <p>Data security</p>
+                </div>
+            </div>
+        </div>
+        <div id="WhatMore" class="additionalcontent">
+            <div class="effort-img">
+                <img src="assets/images/power-up-protection-image.webp" alt="power up protection image" width="1042"
+                    height="1094" class="img-responsive">
+                <div class="data-on">
+                    <img src="assets/images/ads-tick-green.svg" alt="Ads Green Tick" width="23" height="23"
+                        class="img-responsive">
+                    <p>App management</p>
+                </div>
+            </div>
+        </div>
+        <div id="Secure" class="additionalcontent">
+            <div class="effort-img">
+                <img src="assets/images/secure-app-ecosystem.webp" alt="secure app ecosystem" width="1042" height="1094"
+                    class="img-responsive">
+                <div class="data-on">
+                    <img src="assets/images/ads-tick-green.svg" alt="Ads Green Tick" width="23" height="23"
+                        class="img-responsive">
+                    <p>Easy to use interface</p>
+                </div>
+            </div>
+        </div>
+        <div id="Provide" class="additionalcontent">
+            <div class="effort-img">
+                <img src="assets/images/easy-to-use-interface-image.webp" alt="easy to use interface image" width="1042"
+                    height="1094" class="img-responsive">
+                <div class="data-on">
+                    <img src="assets/images/ads-tick-green.svg" alt="Ads Green Tick" width="23" height="23"
+                        class="img-responsive">
+                    <p>Zero touch kiosk</p>
+                </div>
+            </div>
+        </div>
+        <div class="offertab">
+            <button class="contentlinks" onclick="openOffer(event, 'Effortless')" id="defaultOpen">
+                <h3>Effortless kiosk deployment & management</h3>
+                <div class="create">
+                    <p class="hidden">Deploy kiosk-enabled devices straight out of the box. Flash a custom Android
+                        Enterprise, Samsung Knox or ROM with Hexnode App on the devices by collaborating with OEM
+                        vendors who provide specially configured ROMs.</p>
+                    <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/" target="_blank">
+                        <p class="hidden">Try for free <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                                    class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                                    <path fill="none" stroke="#dd0735" stroke-linecap="round"
+                                        d="m.707.707 5.161 5.161-5.161 5.161" data-name="arrow - icon"></path>
+                                </svg>
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </button>
+            <button class="contentlinks" onclick="openOffer(event, 'Customized')">
+                <h3>Customized interface for brand visibility</h3>
+                <div class="create">
+                    <p class="hidden">Create a locked-down environment with customized interface. Maximize brand
+                        visibility and leave a lasting impression by showcasing products, services and key messages
+                        directly to users through the customized interface.</p>
+                    <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/" target="_blank">
+                        <p class="hidden">Try for free <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                                    class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                                    <path fill="none" stroke="#dd0735" stroke-linecap="round"
+                                        d="m.707.707 5.161 5.161-5.161 5.161" data-name="arrow - icon"></path>
+                                </svg>
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </button>
+            <button class="contentlinks" onclick="openOffer(event, 'WhatMore')">
+                <h3>What more can you do with Hexnode kiosk?</h3>
+                <div class="create">
+                    <p class="hidden">Ensure compliance of your devices by remotely deploying the latest OS version
+                        while the device is still in kiosk mode. Prevent your data from falling into the wrong hands
+                        even in case of device loss/theft with the various remote management features.</p>
+                    <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/" target="_blank">
+                        <p class="hidden">Try for free <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                                    class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                                    <path fill="none" stroke="#dd0735" stroke-linecap="round"
+                                        d="m.707.707 5.161 5.161-5.161 5.161" data-name="arrow - icon"></path>
+                                </svg>
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </button>
+            <button class="contentlinks" onclick="openOffer(event, 'Secure')">
+                <h3>Secure and update your app ecosystem</h3>
+                <div class="create">
+                    <p class="hidden">Streamline the deployment and management on apps on your kiosk devices. Save your
+                        time and effort, ensure security and improve your efficiency using Hexnode’s silent app
+                        installation and update features.</p>
+                    <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/" target="_blank">
+                        <p class="hidden">Try for free <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                                    class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                                    <path fill="none" stroke="#dd0735" stroke-linecap="round"
+                                        d="m.707.707 5.161 5.161-5.161 5.161" data-name="arrow - icon"></path>
+                                </svg>
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </button>
+            <button class="contentlinks" onclick="openOffer(event, 'Provide')">
+                <h3>Provide an easy-to-use interface for end-users</h3>
+                <div class="create">
+                    <p class="hidden">Give your end-users the power to control their devices without overwhelming them
+                        with options. An intuitive interface to let them access only the essential settings they need.
+                        Make it easy for them to unlock the full potential of your devices hassle-free.</p>
+                    <a href="https://www.hexnode.com/mobile-device-management/cloud/signup/" target="_blank">
+                        <p class="hidden">Try for free <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                                    class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                                    <path fill="none" stroke="#dd0735" stroke-linecap="round"
+                                        d="m.707.707 5.161 5.161-5.161 5.161" data-name="arrow - icon"></path>
+                                </svg>
+                            </span>
+                        </p>
+                    </a>
+                </div>
+            </button>
+        </div>
+    </section>
+    <!-- possibilities tab mobile section start -->
+    <!-- <div class="container desktop-hide">
+    <button class="accordion">What additional possibilities does the Kiosk mode offer?</button>
+    <div class="panel">
+        
+    </div>
+
+    <button class="accordion">Effortless kiosk deployment & management</button>
+    <div class="panel">
+    </div>
+
+    <button class="accordion">Effortless kiosk deployment & management</button>
+    <div class="panel">
+    </div>
+
+    <button class="accordion">Effortless kiosk deployment & management</button>
+    <div class="panel">
+    </div>
+
+    <button class="accordion">Effortless kiosk deployment & management</button>
+    <div class="panel">
+    </div>
+</div> -->
+    <!-- Choose xenode section start -->
+    <section class="xenode-carousel">
+        <h2>Why should you choose Hexnode?</h2>
+        <div class="container xenode-sec">
+            <div class="mobile-hide black-arrw left-arrow disabled" id="leftArrow">
+                <img src="assets/images/prev-arrow-icon-black.svg" alt="prev arrow icon" class="img-responsive">
+            </div>
+            <div class="choose-xenode-wrapper">
+                <div class="choose-xenode" id="chooseXenode1">
+                    <img src="assets/images/justin-modrak.webp" alt="justin modrak" class="img-responsive">
+                    <div class="users">
+                        <h4>"Hexnode is of great value. Works great with Android and iOS!"</h4>
+                        <h6>Justin Modrak</h6>
+                        <p>Technology Coordinator</p>
+                        <p>East Troy Community School District</p>
+                    </div>
+                </div>
+                <div class="choose-xenode hidden" id="chooseXenode2">
+                    <img src="assets/images/dalibor-kruljac.webp" alt="dalibor kruljac" class="img-responsive">
+                    <div class="users">
+                        <h4>"Hexnode simplifies device management management"</h4>
+                        <h6>Sarah Connor</h6>
+                        <p>IT Specialist</p>
+                        <p>Skynet Corporation</p>
+                    </div>
+                </div>
+                <div class="choose-xenode hidden" id="chooseXenode3">
+                    <img src="assets/images/chris-robinson.webp" alt="chris robinson" class="img-responsive">
+                    <div class="users">
+                        <h4>"A must-have for managing Android and iOS devices!"</h4>
+                        <h6>John Doe</h6>
+                        <p>Tech Manager</p>
+                        <p>Cyberdyne Systems</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-hide black-arrw right-arrow" id="rightArrow">
+                <img src="assets/images/next-arrow-icon-black.svg" alt="next arrow icon" class="img-responsive">
+            </div>
+
+            <!-- <div class="desktop-hide">
+        <div class="black-arrw left-arrow disabled" id="leftArrow">
+            <img src="assets/images/prev-arrow-icon-black.svg" alt="prev arrow icon" class="img-responsive">
+        </div>
+        <div class="black-arrw right-arrow" id="rightArrow">
+            <img src="assets/images/next-arrow-icon-black.svg" alt="next arrow icon" class="img-responsive">
+        </div>
+    </div> -->
+
+        </div>
+    </section>
+
+    <!-- client logos section start -->
+    <section class="logo-sec">
+        <div class="container">
+            <div class="logo-carousel">
+                <img src="assets/images/gorillas.svg" alt="gorillas" class="img-responsive">
+                <img src="assets/images/hilton.svg" alt="hilton" class="img-responsive">
+                <img src="assets/images/lowes.svg" alt="lowes" class="img-responsive">
+                <img src="assets/images/marriott-intl.svg" alt="marriott-intl" class="img-responsive">
+                <img src="assets/images/polaris.svg" alt="polaris" class="img-responsive">
+                <img src="assets/images/saic.svg" alt="saic" class="img-responsive">
+                <img src="assets/images/wolt.svg" alt="wolt" class="img-responsive">
+                <img src="assets/images/costco.svg" alt="costco" class="img-responsive">
+                <img src="assets/images/merck.svg" alt="merck" class="img-responsive">
+            </div>
+        </div>
+    </section>
+
+    <!-- platform section start -->
+    <section class="container platforms">
+        <h2>Platforms supported</h2>
+        <div class="support-items">
+            <img src="assets/images/android.svg" alt="android" class="img-responsive">
+            <img src="assets/images/windows.svg" alt="windows" class="img-responsive">
+            <img src="assets/images/ios.svg" alt="ios" class="img-responsive">
+            <img src="assets/images/android-tv.svg" alt="android tv" class="img-responsive">
+            <img src="assets/images/apple-tv.svg" alt="apple tv" class="img-responsive">
+            <img src="assets/images/amazon-fire.webp" alt="amazon-fire" class="img-responsive">
+        </div>
+    </section>
+
+    <!-- Sign up section start -->
+    <section class="sign-up">
+        <div class="container">
+            <h3 class="sign-txt">Sign up and try Hexnode free for 14 days!</h3>
+            <form action="" class="form-section form-justify" id="emailForm">
+                <div class="form-input">
+                    <input type="email" name="email" value="" class="form-control" id="emailInput"
+                        placeholder="Your Work Email">
+                    <p><span id="error" class="" style="display: none;">Please enter Your Work Email</span> </p>
+                </div>
+                <button type="submit" id="submitButton">GET STARTED NOW!</button>
+            </form>
+            <p>No credit cards required.<a href="https://www.hexnode.com/mobile-device-management/request-demo/"
+                    class="">Request a demo
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6.575" height="11.737"
+                        class="ml-[5px] translate-x-0 group-hover/tabLink:translate-x-[3px] transition-all duration-300 ease-out">
+                        <path fill="none" stroke="#dd0735" stroke-linecap="round" d="m.707.707 5.161 5.161-5.161 5.161"
+                            data-name="arrow - icon"></path>
+                    </svg>
+                </a></p>
+        </div>
+    </section>
+    <!-- Footer section start -->
+    <footer>
+        <div class="container">
+            <div class="footer-sec">
+                <p class="terms">
+                    <a href="https://www.hexnode.com/legal/terms-of-use/">Terms of Use - </a>
+                    <a href="https://www.hexnode.com/legal/privacy-policy/">Privacy - </a>
+                    <a href="https://www.hexnode.com/legal/cookies-policy/">Cookies</a>
+                </p>
+                <p>Copyright © 2024 Mitsogo Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+        <script src="assets/js/common.min.js" defer></script>
+    </footer>
+</body>
+
+</html>
